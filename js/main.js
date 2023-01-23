@@ -14,6 +14,7 @@ const timer = setInterval(() => {
 
   if (days === 0) {
     elTimerText.innerHTML == "Tug'ilgan kuningiz kirib keldi tabriklayman!"
+    return
   }
 
   elTimerText.innerHTML = `Tug'ilgan kuningizga ${year} yil, ${days} kun, ${hours} soat, ${minutes} daqiqa, ${seconds} soniya qoldi`
