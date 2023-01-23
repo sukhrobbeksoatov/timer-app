@@ -12,7 +12,7 @@ const timer = setInterval(() => {
   const minutes = Math.trunc((date % (1000 * 60 * 60)) / 1000 / 60)
   const seconds = Math.trunc((date % (1000 * 60)) / 1000)
 
-  if (days === 0) {
+  if (days === 0 && hours === 0 && minutes === 0 && seconds === 0) {
     elTimerText.innerHTML == "Tug'ilgan kuningiz kirib keldi tabriklayman!"
     return
   }
