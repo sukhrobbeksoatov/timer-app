@@ -1,6 +1,6 @@
 const elTimerText = document.querySelector("[data-timer-display]")
 
-const birthdayDate = new Date("Jan 22, 2023 01:06:00").getTime()
+const birthdayDate = new Date("March 15, 2023 00:00:00").getTime()
 let year;
 let days;
 let hours;
