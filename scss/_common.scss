@@ -38,6 +38,7 @@ img {
 body {
   height: 100%;
   font-family: "Arial", sans-serif;
+  text-align: center;
   font-size: 16px;
   line-height: 1.5;
   color: var(--text-color);
@@ -71,38 +72,7 @@ body {
   }
 }
 
-/* VISUALLY HIDDEN */
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 /* MAIN CONTENT */
 .main-content {
   flex-grow: 1;
 }
-
-/* BUTTON */
-.button {
-  display: inline-block;
-  border: none;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-}
-
-/* RETINA BGS */
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1),
-only screen and (min-device-pixel-ratio: 2),
-only screen and (min-resolution: 192dpi),
-only screen and (min-resolution: 2dppx) {}
